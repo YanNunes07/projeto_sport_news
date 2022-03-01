@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media all and (max-width: 480px) {
+    .geral {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .topo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color:#000000;
+        color: white;
+    }
+    
+    .menu{
+        display: flexbox;
+        background-color: #0091ea;
+    }
+    
+    .artigo{
+        width: 55%;
+    }
+
+    .artigo1{
+        width: 55%;
+    }
+
+    .container{
+        width: 45%;
+        height: 100%;
+        display: grid;
+        margin-bottom: 2%;
+        justify-content: flex-start;
+        background-color: #fff;
+        color: black;
+        align-content: flex-start;
+    }
+    
+    .container2{
+        width: 45%;
+        height: 100%;
+        display: grid;
+        justify-content: flex-start;
+        background-color: #fff;
+        color: black;
+        align-content: flex-start;
+    }
+    
+    p{
+        text-align: justify;
+    }
+
+    h2{
+        margin-left: 16%;
+    }
+    
+    h3{
+        margin-left: 2%;
+        font-size: 30px;
+    }
+
+    h4{
+        margin-left: 2%;
+        font-size: 30px;
+    }
+
+    h6{
+        margin-left: 1.70%;
+        font-size: 15px;
+    }
+
+    .conteudo{
+        width: 100%;
+        display: grid;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: rgb(10, 10, 10);
+        flex-wrap: wrap;
+    }
+    
+    .conteudo2{
+        width: 100%;
+        display: grid;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: rgb(10, 10, 10);
+        flex-wrap: wrap;
+        
+    }
+    
+    .rodape{
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .page-footer{
+        background-color: #0091ea;
+    }
+    
+    .footer-copyright{
+        background-color: #00b0ff;
+        
+    }
+    
+    .carousel{
+       height: 400px;
+       perspective: 200px;
+    
+    }
+    
+    .carousel .carousel-item{
+        width: 300px;
+    }
+}

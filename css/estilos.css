@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.topo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#000000;
+    color: white;
+}
+
+.menu{
+    background-color: #0091ea;
+}
+
+.container{
+    width: 45%;
+    height: 100%;
+    display: grid;
+    justify-content: flex-start;
+    background-color: #fff;
+    color: black;
+    align-content: flex-start;
+}
+
+.container2{
+    width: 85%;
+    height: 50%;
+    display: grid;
+    justify-content: flex-start;
+    background-color: #fff;
+    color: black;
+    align-content: flex-start;
+    padding-left: 15em;
+}
+
+h2{
+    margin-left: 39%;
+}
+
+p{
+    text-align: justify;
+}
+
+.conteudo{
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: rgb(10, 10, 10);
+    flex-wrap: wrap;
+}
+
+.conteudo2{
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2em;
+    color: rgb(10, 10, 10);
+    flex-wrap: wrap;
+    
+}
+
+.rodape{
+    margin-top: 2%;
+}
+
+.page-footer{
+    background-color: #0091ea;
+}
+
+.footer-copyright{
+    background-color: #00b0ff;
+    
+}
+
+.carousel{
+   height: 400px;
+   perspective: 200px;
+
+}
+
+.carousel .carousel-item{
+    width: 300px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0; 
+    background-color: #0091ea;
+}
+  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+@media all and (max-width: 768px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a { 
+        text-align: center; 
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255,0.3); 
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
+    
+    .container{
+        width: 85%;
+        height: 50%;
+        display: grid;
+        margin-right: 44%;
+        justify-content: flex-start;
+        background-color: #fff;
+        color: black;
+        align-content: flex-start;
+        
+    }
+
+    .container2{
+        width: 95%;
+        height: 50%;
+        display: grid;
+        justify-content: flex-start;
+        background-color: #fff;
+        color: black;
+        align-content: flex-start;
+        padding-left: 5em;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    
+    .conteudo{
+        width: 35%;
+        display: grid;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: rgb(10, 10, 10);
+        flex-wrap: wrap;
+    }
+    
+    .conteudo2{
+        width: 100%;
+    }
+    
+    .page-footer{
+        background-color: #0091ea;
+    }
+    
+    .footer-copyright{
+        background-color: #00b0ff;
+        
+    }
+    
+    .carousel{
+       height: 500px;
+       perspective: 200px;
+    
+    }
+    
+    .carousel .carousel-item{
+        width: 300px;
+        
+    }
+     
+    .artigo{
+        width: 100%;
+        display: grid;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .artigo{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+
+    .conteudo2 img {
+        width: 500px;
+        height: 250px;
+        padding: 1em;
+        margin: 1em 1em 3 1em;
+        border-radius: 15%;
+    }
+    .conteudo img {
+        width: 450px;
+        height: 250px;
+        padding: 1em;
+        margin: 1em 1em 3 1em;
+        border-radius: 15%;
+    }
+}
